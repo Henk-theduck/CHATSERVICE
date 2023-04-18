@@ -26,3 +26,7 @@ func NewMessage(role, content string, model *Model) (*Message, error) {
 	}
 	return msg, nil
 }
+
+// func (m *Message) Validate() error {
+// 	if m.Role != "user" && m.Role
+// }
