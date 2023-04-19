@@ -12,10 +12,10 @@ func NewModel(name string, maxTokens int) *Model {
 	}
 }
 
-func (m *Model) GetMaxTokens() int {
-	return m.MaxTokens
+func (model *Model) GetMaxTokens() int {
+	return model.MaxTokens
 }
 
-func (m *Model) GetName() string {
-	return m.Name
+func (model *Model) GetModelName() string {
+	return model.Name
 }
